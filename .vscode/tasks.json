@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Java Application",
+            "type": "shell",
+            "command": "cd learnjava && mvn clean compile exec:java -Dexec.mainClass=\"dev.armckinney.learnjava.App\"",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
