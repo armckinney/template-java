@@ -19,7 +19,8 @@
 			"extensions": [
 				"yzhang.markdown-all-in-one",
                 "ms-azuretools.vscode-docker",
-				"vscjava.vscode-java-pack"
+				"vscjava.vscode-java-pack",
+				"redhat.vscode-xml"
 			]
 		}
 	}
