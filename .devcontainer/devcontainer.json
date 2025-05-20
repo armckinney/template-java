@@ -1,0 +1,24 @@
+{
+	"name": "template-java",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "dev-container",
+	"workspaceFolder": "/workspaces/template-java",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"terminal.integrated.profiles.linux": {
+					"bash": {
+						"path": "bash",
+						"icon": "terminal-bash"
+					}
+				}
+			},
+			"extensions": [
+				"yzhang.markdown-all-in-one",
+                "ms-azuretools.vscode-docker"
+			]
+		}
+	}
+}

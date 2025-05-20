@@ -1,3 +1,12 @@
+# universal secrets
+*secret*
+*key*
+*local*
+
+# terraform
+*tfstate*
+*.terraform*
+
 # Compiled class file
 *.class
 
