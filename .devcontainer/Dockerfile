@@ -1,4 +1,4 @@
-FROM armck/java:21
+FROM ghcr.io/armckinney/java:21
 
 # set workspace directory
 ARG WORKSPACE=/workspaces/template-java
